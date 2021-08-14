@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  app:
+    container_name: app
+    restart: always
+    build: C:\Users\evell\Documents\Projetos\fiap-nubank-proxy
+    ports:
+      - '3005:3005'
+    links:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    volumes:
+      - ./data:/data/db
+    ports:
+      - '27017:27017'
