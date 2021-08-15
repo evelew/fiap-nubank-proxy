@@ -24,7 +24,7 @@
     "concurrently": "^6.2.1",
     "express": "^4.17.1",
     "express-http-proxy": "^1.6.2",
-    "fiap-nubank-service-incomes": "git+https://github.com/evelew/fiap-nubank-service-incomes.git#fix/db-url",
-    "fiap-nubank-service-wallets": "git+https://github.com/evelew/fiap-nubank-service-wallets.git#fix/db-url"
+    "fiap-nubank-service-incomes": "git+https://github.com/evelew/fiap-nubank-service-incomes.git",
+    "fiap-nubank-service-wallets": "git+https://github.com/evelew/fiap-nubank-service-wallets.git"
   }
 }
