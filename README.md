@@ -14,8 +14,7 @@ Projeto desenvolvido com Node.js.
     - Fazer import desses dados pra dentro do MongoDB: `docker exec <CONTAINER_ID> mongoimport -d fiap_nubank_income -c income --file ./data.json --jsonArray`
 5. Iniciar container onde o proxy irá rodar: `docker-compose up app`
 
-Agora esse projeto deve rodar estar rodando!
-
-Você testar acessando esse endpoint: **GET** `http://localhost:3005/income/get-all`.
+Agora o projeto deve rodar estar funcionando!
+Você pode testar acessando esse endpoint: **GET** `http://localhost:3005/income/get-all`.
 
 Ele deve retornar os dados que foram importados pra dentro do MongoDB.
