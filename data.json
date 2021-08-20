@@ -1,0 +1,17 @@
+[
+  {
+    "name": "100% do CDI",
+    "cdi_percentage": 100,
+    "due_date": "2021-08-10"
+  },
+  {
+    "name": "102% do CDI",
+    "cdi_percentage": 102,
+    "due_date": "2022-03-15"
+  },
+  {
+    "name": "105% do CDI",
+    "cdi_percentage": 105,
+    "due_date": "2024-06-23"
+  }
+]
