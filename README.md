@@ -18,3 +18,15 @@ Agora o projeto deve rodar estar funcionando!
 Você pode testar acessando esse endpoint: **GET** `http://localhost:3005/income/get-all`.
 
 Ele deve retornar os dados que foram importados pra dentro do MongoDB.
+
+## Como funciona
+
+Esse projeto é um proxy que centraliza 2 serviços:
+1. [Serviço responável pela parte de carteiras](https://github.com/evelew/fiap-nubank-service-wallets)
+2. [Serviço responável pela parte de rendimentos](https://github.com/evelew/fiap-nubank-service-incomes)
+
+Esse serviço é utilizado pelo app: [https://github.com/evelew/fiap-nubank-client](https://github.com/evelew/fiap-nubank-client)
+
+## Objetivo
+
+Projeto desenvolvido como trabalho do módulo de microsserviços do MBA de Engenharia de Software da FIAP.
