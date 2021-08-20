@@ -22,8 +22,8 @@ Ele deve retornar os dados que foram importados pra dentro do MongoDB.
 ## Como funciona
 
 Esse projeto é um proxy que centraliza 2 serviços:
-1. [Serviço responável pela parte de carteiras](https://github.com/evelew/fiap-nubank-service-wallets)
-2. [Serviço responável pela parte de rendimentos](https://github.com/evelew/fiap-nubank-service-incomes)
+1. [Serviço responsável pela parte de carteiras](https://github.com/evelew/fiap-nubank-service-wallets)
+2. [Serviço responsável pela parte de rendimentos](https://github.com/evelew/fiap-nubank-service-incomes)
 
 Esse serviço é utilizado pelo app: [https://github.com/evelew/fiap-nubank-client](https://github.com/evelew/fiap-nubank-client)
 
