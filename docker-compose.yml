@@ -3,7 +3,7 @@ services:
   app:
     container_name: app
     restart: always
-    build: C:\Users\evell\Documents\Projetos\fiap-nubank-proxy
+    build: PATH/TO/PROJECT
     ports:
       - '3005:3005'
     links:
